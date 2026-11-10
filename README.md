@@ -91,7 +91,7 @@ Having a bigger minimum topic size for the global analysis allows us to first un
 The LinguaLoupe command used for this analysis looks as follow:
 
 ```
-python LinguaLoupe.py -ti 'CHATGPT User Reviews Revised SecondTry' -dt test_datasets/Final_Dataset.csv -text_c Review -o results -lang english -col label -colors colors/chatgpr_user_reviews_colors.json -min_topic_size 15 -min_topic_size_global 20 -e_model sentence-transformers/all-mpnet-base-v2
+python LinguaLoupe.py -ti 'CHATGPT User Reviews' -dt test_datasets/Final_Dataset.csv -text_c Review -o results -lang english -col label -colors colors/chatgpr_user_reviews_colors.json -min_topic_size 15 -min_topic_size_global 20 -e_model sentence-transformers/all-mpnet-base-v2
 ```
 
 ## Results
